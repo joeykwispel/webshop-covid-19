@@ -29,7 +29,7 @@ class Product
     private $Btw;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\FactuurProducten", mappedBy="product")
+     * @ORM\OneToMany(targetEntity="App\Entity\FactuurProducten", mappedBy="Product")
      */
     private $factuurProductens;
 

@@ -50,7 +50,7 @@ class Factuur
     private $verval_date;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\FactuurProducten", mappedBy="Factuur")
+     * @ORM\OneToMany(targetEntity="App\Entity\FactuurProducten", mappedBy="factuur")
      */
     private $factuurProductens;
 
